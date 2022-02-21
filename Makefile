@@ -11,7 +11,7 @@ black:
 	@black scripts/* Fizzbuzz_project/*.py
 
 test:
-	@coverage run -m pytest tests/*.py
+	@coverage run -m pytest tests/tests_*.py
 	@coverage report -m --omit="${VIRTUAL_ENV}/lib/python*"
 
 ftest:
