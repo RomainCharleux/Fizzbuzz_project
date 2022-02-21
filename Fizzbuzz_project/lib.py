@@ -1,12 +1,12 @@
 def try_me(n):
-    li = []
+    lis = []
     for i in range (1, n+1):
         if i % 3 == 0 and i % 5 == 0:
-            li.append("FizzBuzz")
+            lis.append("FizzBuzz")
         elif i % 3 == 0:
-            li.append("Fizz")
+            lis.append("Fizz")
         elif i % 5 == 0:
-            li.append("Buzz")
+            lis.append("Buzz")
         else:
-            li.append(i)
-    return li
+            lis.append(i)
+    return lis
